@@ -1,0 +1,160 @@
+/* Estilos para la página */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d0d5e0;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: #000;
+}
+
+/* Header Styles */
+header {
+  background-color: #3b4848;
+  padding: 20px;
+  text-align: center;
+  height: 50px;
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.left-section {
+  flex: 1;
+  margin-top: 10%;
+  padding: 20px;
+}
+
+.middle-section {
+  margin-top: 15%;
+  flex: 1;
+}
+
+.middle-section input {
+  margin-bottom: 7%;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 400px;
+}
+
+.right-section {
+  margin-top: 20%;
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.btn {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn_editarA {
+  margin-top: 70px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 1000;
+}
+
+.btn_editarB {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.image-preview {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10%;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  margin-right: 50px;
+  overflow: hidden;
+}
+
+.image-preview img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.textareaI {
+  width: 420px; /* Ancho deseado */
+  height: 150px; /* Altura deseada */
+  padding: 8px; /* Espacio interior */
+  font-size: 16px; /* Tamaño de fuente */
+  border: 2px solid #ccc; /* Borde */
+  border-radius: 5px; /* Bordes redondeados */
+  box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto */
+}
+
+#subir_foto {
+  flex: 0;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+}
+
+#labelA {
+  margin-top: 30px;
+}
+
+#editar_album-button {
+  margin-top: 15px;
+  border-radius: 10%;
+  background-color: #0354aa;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: small;
+  cursor: pointer;
+}
+
+#upload-form {
+  margin-top: 20px;
+}
+
+#upload-button {
+  border-radius: 10%;
+  background-color: #0354aa;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: medium;
+  cursor: pointer;
+}
+
+#album-select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 20px;
+}

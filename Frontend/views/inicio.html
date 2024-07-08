@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Banco de Recetas</title>
+    <link rel="stylesheet" href="../css/inicio.css">
+</head>
+
+<body>
+    <header>
+        <h1>TU BANCO DE RECETAS</h1>
+    </header>
+    <div class="container">
+        <div class="left-section">
+            <div class="user-info">
+                <div class="image-container">
+                    <img id="userImg" >
+                </div>
+                <label id="nomUser" for="username">Nombre Usuario</label>
+            </div>
+        </div>
+        <div class="right-section">
+            <h2>Recetario</h2>
+            <div class="buttons">
+                <div>
+                    <button onclick="window.location.href = 'ver_recetas.html';" class="btn">Ver Recetas</button>
+                    <img class="icono" src="../img/iconoR.jpeg" alt="Logo">
+                </div>
+                <div>
+                    <button onclick="window.location.href = 'agregar_receta.html';" class="btn">Agregar Receta</button>
+                    <img class="icono" src="../img/iconoA.jpeg" alt="Logo">
+                </div>
+            </div>
+            <div class="logout-button">
+                <button onclick="window.location.href = 'index.html';" class="btn1">Cerrar Sesión</button>
+            </div>
+        </div>
+    </div>
+    <a href="../views/chatbot.html">
+        <img class="chat" src="../img/chatbot.jpg" alt="Logo">
+    </a>
+    <script src="../js/inicio.js"></script>
+</body>
+
+</html>

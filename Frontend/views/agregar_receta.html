@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/agregar.css">
+    <title>Agregar Receta</title>
+</head>
+<body>
+    <header>
+        <h1>Agrega tu receta</h1>
+    </header>
+    <div class="container">
+        <div class="left-section">
+            <div class="image-preview">
+                <img id="img_user">
+            </div>
+        </div>
+        <div class="middle-section">
+            <form id="upload-form">
+                <label for="photo-name">Nombre de la receta:</label>
+                <input type="text" id="photo-name" name="photo-name">
+                <label for="albumes" id="labelA">Receta:</label>
+                <textarea id="descripcion_imagen" class="textareaI" placeholder="Ingrese su texto aquí"></textarea>
+                <button type="submit" id="subir_foto" class="btn_editarB">Subir Foto</button>
+            </form>
+            <button onclick="window.location.href = 'inicio.html';" class="btn_editarA">Regresar a Inicio</button>
+        </div>
+        <div class="right-section">
+            <input type="file" id="avatar-input" accept="image/*">
+            <label for="avatar-input" class="btn">Seleccionar Foto</label>
+            
+        </div>
+    </div>
+    <script src="../js/subir.js"></script>
+</body>
+</html>

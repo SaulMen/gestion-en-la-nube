@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("../img/fondoR.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #050218;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-section,
+.right-section {
+  width: 45%;
+  
+}
+
+.left-section {
+  text-align: center;
+}
+
+.avatar-box {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10%;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.avatar-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.btn {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.right-section {
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: rgba(229, 234, 238, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+.right-section h2 {
+  margin-top: 0;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 550px;
+}
+
+button {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+#login_camara {
+  margin-top: 10px;
+  font-size: 17px;
+}

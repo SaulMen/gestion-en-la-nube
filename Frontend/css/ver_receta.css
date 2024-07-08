@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/fondoV.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Header Styles */
+header {
+  background-color: #3b4848;
+  padding: 20px;
+  text-align: center;
+  height: 50px;
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.selectorO {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* Left Section Styles */
+.left-section {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.options-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+#left-content,
+#right-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.content-item {
+  background-color: #fff;
+  width: 470px;
+  margin-left: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex; /* Cambiado a flex */
+  align-items: center; /* Centrado verticalmente */
+  justify-content: center; /* Centrado horizontalmente */
+  padding: 20px;
+}
+
+.content-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10%;
+  margin-right: 10px; /* Añadido margen derecho */
+}
+
+.content-item p {
+  margin: 0; /* Eliminado margen inferior */
+}
+
+/* Right Section Styles */
+.right-section,
+.left-section {
+  flex: 1;
+  margin-left: 30px;
+  background-color: rgba(229, 234, 238, 0.8);
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+  width: 550px;
+  height: 420px;
+}
+
+/* Back Button Styles */
+.back-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #3b4848;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#back-button {
+  background-color: #0047ab;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#back-button:hover {
+  background-color: #003e95;
+}

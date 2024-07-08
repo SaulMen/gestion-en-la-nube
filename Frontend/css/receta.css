@@ -1,0 +1,104 @@
+/* Estilos para la página */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d0d5e0;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #000;
+}
+
+/* Header Styles */
+header {
+  background-color: #3b4848;
+  padding: 15px;
+  text-align: center;
+  height: 50px;
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.left-section {
+  width: 45%;
+}
+
+.image-box {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 7%;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  overflow: hidden;
+}
+
+#avatar {
+  width: 100%;
+  height: auto;
+}
+
+.right-section {
+  margin-left: 5px;
+  width: 950px;
+  height: 400px;
+  padding: 10px;
+}
+
+.receta_text {
+  margin-bottom: 20px;
+  width: 800px;
+  height: 160px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-color: rgba(229, 234, 238, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+#languageSelect {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 250px;
+}
+
+#translateBtn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-to-home {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #3b4848;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.back-to-home:hover {
+  background-color: #3b4848;
+}

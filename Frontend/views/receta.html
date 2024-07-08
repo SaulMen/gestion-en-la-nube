@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta</title>
+    <link rel="stylesheet" href="../css/receta.css">
+</head>
+
+<body>
+    <header id="head">
+        <h1>Veamos la receta!</h1>
+    </header>
+    <div class="container">
+        <div class="left-section">
+            <div class="image-box" id="imageBox">
+                <img id="avatar">
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="receta_text">
+                <h2>Receta</h2>
+                <p id="descriptionText">Texto de descripción desde JavaScript</p>
+            </div>
+            <div class="options">
+                <select id="languageSelect">
+                    <option value="en">Inglés</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Francés</option>
+                    <option value="de">Alemán</option>
+                    <option value="it">Italiano</option>
+                    <!-- Agrega más opciones según sea necesario -->
+                </select>
+                <button onclick=traducir() id="translateBtn">Traducir</button>
+            </div>
+            <div class="receta_text">
+                <h2>Traducción</h2>
+                <p id="translationText">Texto traducido desde JavaScript</p>
+            </div>
+        </div>
+    </div>
+    <a href="inicio.html" class="back-to-home">Regresar a Inicio</a>
+    <script src="../js/detalle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("../img/fondoL.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #050218;
+}
+.login-box {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 2px solid #ac9f9f;
+  border-radius: 10px;
+  background-color: rgba(188, 196, 202, 0.8);
+  backdrop-filter: blur(2px);
+}
+
+.login-box h2 {
+  margin-top: 0;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: calc(100% - 30px);
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+#login_camara {
+  margin-top: 10px;
+  width: auto;
+}

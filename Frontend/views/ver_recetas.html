@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas de todo el mundo</title>
+    <link rel="stylesheet" href="../css/ver_receta.css">
+</head>
+
+<body>
+    <header>
+        <h1>Recetas de todo el mundo!</h1>
+    </header>
+
+    <div class="container">
+        <div class="left-section">
+            <div class="options-container">
+                <select id="left-options" class="selectorO">
+                    <option value="Publico">Público</option>
+                    <option value="Personal">Personal</option>
+                </select>
+            </div>
+            <div id="left-content"></div>
+        </div>
+        <div class="right-section">
+            <div class="options-container">
+                <select id="right-options" class="selectorO"></select>
+            </div>
+            <div id="right-content"></div>
+        </div>
+    </div>
+
+    <div class="back-button-container">
+        <button onclick="window.location.href = 'inicio.html';" id="back-button" class="btn">Regresar</button>
+    </div>
+
+    <script src="../js/ver_rececta.js"></script>
+</body>
+
+</html>
