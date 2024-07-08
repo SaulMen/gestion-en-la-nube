@@ -2,7 +2,7 @@
 
 ____
 
-**Importante: Este proyecto fue desarrollado en grupo junto con [Sebastían Jeréz](https://github.com/Sebastian-Jerez) y [José Carlos Moreira](https://github.com/JoseMore99)**
+**Importante: Este proyecto fue desarrollado en grupo junto con [Sebastían Jerez](https://github.com/Sebastian-Jerez) y [José Carlos Moreira](https://github.com/JoseMore99)**
 ____
 
 #### **Acerca de**
