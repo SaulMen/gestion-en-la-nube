@@ -2,9 +2,6 @@
 
 ____
 
-**Importante: Este proyecto fue desarrollado en grupo junto con [Sebastían Jerez](https://github.com/Sebastian-Jerez) y [José Carlos Moreira](https://github.com/JoseMore99)**
-____
-
 #### **Acerca de**
 Este repositorio contiene un proyecto de aplicación para la gestión en la nube que permite la creación de usuarios, almacenamiento de imágenes y creación de álbumes. El proyecto se desarrolló utilizando varios servicios de AWS.
 
